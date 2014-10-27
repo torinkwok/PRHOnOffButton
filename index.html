@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Prhonoffbutton : This is a button cell class that aims to replicate the sliding-switch button, as seen in many iPhone apps and in the Time Machine pane in System Preferences.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Prhonoffbutton</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/TongG/PRHOnOffButton">View on GitHub</a>
+
+          <h1 id="project_title">Prhonoffbutton</h1>
+          <h2 id="project_tagline">This is a button cell class that aims to replicate the sliding-switch button, as seen in many iPhone apps and in the Time Machine pane in System Preferences.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/TongG/PRHOnOffButton/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/TongG/PRHOnOffButton/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="-solemn-declaration" class="anchor" href="#-solemn-declaration"><span class="octicon octicon-link"></span></a>⚠ Solemn Declaration</h1>
+
+<p>This repo was imported from <a href="https://bitbucket.org/boredzo/prhonoffbutton/overview">here</a> at first ( it was hosted on Bitbucket, but I love GitHub rather than the former ).
+Its original writer is <a href="https://bitbucket.org/boredzo">Peter Hosey</a>, thank you for this awesome framework! And I will continue to develop it.</p>
+
+<h3>
+<a name="purpose" class="anchor" href="#purpose"><span class="octicon octicon-link"></span></a>Purpose</h3>
+
+<p>This is a button cell class that aims to replicate the sliding-switch button, as seen in many iPhone apps and in the Time Machine pane in System Preferences.</p>
+
+<h3>
+<a name="compatibility" class="anchor" href="#compatibility"><span class="octicon octicon-link"></span></a>Compatibility</h3>
+
+<p>This class works on the Mac (using AppKit). It will not work on the iPhone, where there is no reason for it (it already has a sliding-switch class).
+The implementation requires Mac OS X 10.5 or later, primarily for NSGradient.</p>
+
+<h3>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting started</h3>
+
+<p>Add PRHOnOffButton.[hm] and PRHOnOffButtonCell.[hm] to your source code directory, your Xcode project, and the relevant targets.
+In IB, add a checkbox to your xib.
+Select it. Switch to the Identity (<code>⌘⌥3</code> in Xcode 5.x and later) Inspector. Set the control's class to PRHOnOffButton.
+Double-click the control to edit its cell. Set the cell's class to PRHOnOffButtonCell.</p>
+
+<h3>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h3>
+
+<ul>
+<li>The cell supports the mixed state. You can turn that on in the Attributes (<code>⌘⌥4</code> in Xcode 5.x and later) Inspector for your button control. (You probably shouldn't set it for the cell specifically unless it's hosted in a matrix or something instead of a button control.)</li>
+<li>Since it's a cell, it should work in matrixes and table views, although I haven't tested it in a table view.</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Prhonoffbutton maintained by <a href="https://github.com/TongG">TongG</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
