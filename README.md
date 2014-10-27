@@ -1,7 +1,7 @@
 # Solemn Declaration
 
-This repo was forked from [ here ]( https://bitbucket.org/boredzo/prhonoffbutton/overview ).
-Its original writer is [ Peter Hosey ]( https://bitbucket.org/boredzo ), thank you for this awesome framework!
+This repo was forked from [here]( https://bitbucket.org/boredzo/prhonoffbutton/overview ) at first.
+Its original writer is [Peter Hosey]( https://bitbucket.org/boredzo ), thank you for this awesome framework! And I will continue to develop it.
 
 ## Purpose
 This is a button cell class that aims to replicate the sliding-switch button, as seen in many iPhone apps and in the Time Machine pane in System Preferences.
