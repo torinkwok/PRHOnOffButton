@@ -13,7 +13,7 @@ The implementation requires Mac OS X 10.5 or later, primarily for NSGradient.
 ### Getting started
 Add PRHOnOffButton.[hm] and PRHOnOffButtonCell.[hm] to your source code directory, your Xcode project, and the relevant targets.
 In IB, add a checkbox to your xib.
-Select it. Switch to the Identity (⌘6 in Xcode 3, ⌘⌥3 in Xcode 4) Inspector. Set the control's class to PRHOnOffButton.
+Select it. Switch to the Identity (⌘⌥3 in Xcode 5.x) Inspector. Set the control's class to PRHOnOffButton.
 Double-click the control to edit its cell. Set the cell's class to PRHOnOffButtonCell.
 
 ### Features
