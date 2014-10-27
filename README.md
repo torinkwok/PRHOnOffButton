@@ -1,6 +1,6 @@
 # Solemn Declaration
 
-This repo was forked from [here]( https://bitbucket.org/boredzo/prhonoffbutton/overview ) at first.
+This repo was imported from [here]( https://bitbucket.org/boredzo/prhonoffbutton/overview ) at first ( it was hosted on BitBucket, but I love GitHub rather than the former ).
 Its original writer is [Peter Hosey]( https://bitbucket.org/boredzo ), thank you for this awesome framework! And I will continue to develop it.
 
 ## Purpose
