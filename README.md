@@ -13,9 +13,9 @@ The implementation requires Mac OS X 10.5 or later, primarily for NSGradient.
 ### Getting started
 Add PRHOnOffButton.[hm] and PRHOnOffButtonCell.[hm] to your source code directory, your Xcode project, and the relevant targets.
 In IB, add a checkbox to your xib.
-Select it. Switch to the Identity (⌘⌥3 in Xcode 5.x) Inspector. Set the control's class to PRHOnOffButton.
+Select it. Switch to the Identity (`⌘⌥3` in Xcode 5.x and later) Inspector. Set the control's class to PRHOnOffButton.
 Double-click the control to edit its cell. Set the cell's class to PRHOnOffButtonCell.
 
 ### Features
-* The cell supports the mixed state. You can turn that on in the Attributes (⌘1 in Xcode 3, ⌘⌥4 in Xcode 4) Inspector for your button control. (You probably shouldn't set it for the cell specifically unless it's hosted in a matrix or something instead of a button control.)
+* The cell supports the mixed state. You can turn that on in the Attributes (`⌘⌥4` in Xcode 5.x and later) Inspector for your button control. (You probably shouldn't set it for the cell specifically unless it's hosted in a matrix or something instead of a button control.)
 * Since it's a cell, it should work in matrixes and table views, although I haven't tested it in a table view.
